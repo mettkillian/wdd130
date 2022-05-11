@@ -8,6 +8,7 @@
 nav a {
     text-align: center;
     color: #1B4965;
+    text-decoration: none;
 }
 
 #hero-msg h1, #hero-msg h4 {
@@ -41,6 +42,8 @@ nav a:hover {
 
 .book, .join {
     background-color: #62B6CB;
+    color: #1B4965;
+    text-decoration: none;
 }
 
 #background {
@@ -55,3 +58,54 @@ footer {
     background-color: #62B6CB;
 }
 
+.home-title {
+    color: #1B4965;
+}
+
+h4 {
+    color: #1B4965;
+}
+
+.book:hover, .join:hover {
+    background-color:#1B4965 ;
+    color: white;
+}
+
+.msg h2 {
+    color: #1B4965;
+}
+
+.msg p {
+    color: #1B4965;
+}
+
+footer h3 {
+    color: #1B4965;
+   
+}
+
+footer a {
+    color: #1B4965;
+    text-decoration: none;
+}
+
+footer a:hover {
+    background-color:#1B4965 ;
+    color: white;
+}
+
+.icon {
+    width: 80px;
+}
+
+.logo {
+    width: 80px;
+}
+
+#hero-img {
+    width: 100%;
+}
+
+footer h3 a:hover {
+    text-decoration: underline;
+}
