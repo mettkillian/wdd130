@@ -36,7 +36,7 @@ nav a {
 }
 
 nav a:hover {    
-    background-color: #ddd;
+    background-color: #EDF2F4;
     color: black;          
 }
 
@@ -94,21 +94,23 @@ h2 {
 
 .button-box {    
     margin: auto;
-    background-color: #8D99AE;    
+    background-color: #EF233C;       
     padding: 10px 20px;
     width: 85px;
     border: 1px solid black;
     border-radius: 5%;
-    text-decoration: none;
+    text-decoration: none;    
 }
+
 .button-box a, .social a {
   text-decoration: none;
   color:black;
   
+  
 }
 
 .button-box:hover, .siteplan:hover, .contactus:hover {    
-    background-color: #ddd;
+    background-color: #EDF2F4;
     color: black; 
             
 }
@@ -160,7 +162,7 @@ footer h3 {
 .siteplan {
     grid-column: 1/2;
     width: 80px;   
-    background-color: #8D99AE;
+    background-color: #EF233C;
     border: 1px solid black;
     border-radius: 5%;           
 }
@@ -168,7 +170,7 @@ footer h3 {
 .contactus {
     grid-column: 2/3;
     width: 80px;    
-    background-color: #8D99AE;
+    background-color: #EF233C;
     border: 1px solid black;
     border-radius: 5%;
         
