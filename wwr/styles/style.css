@@ -15,8 +15,9 @@ nav {
 nav a {
     text-align: center;
     color: #1B4965;
-    text-decoration: none;
+    text-decoration: none;    
 }
+
 
 #hero-msg h1, #hero-msg h4 {
     text-align: center;
