@@ -208,4 +208,7 @@ footer img {
     .weathersummary h2{
         font-size: 1em;
     }
+    .main-text p {
+        font-size: .75em;
+    }
 }
