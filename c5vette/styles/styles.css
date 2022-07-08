@@ -177,16 +177,14 @@ footer {
 }
 
 .contactus {
-   grid-column: 4/7;
-        
+   grid-column: 4/7;        
 }
 
 .siteplan a, .contactus a {
     background-color: #EF233C;            
     padding: 10px 20px;    
     text-decoration: none;
-    color: white;
-    border: 1px solid black;
+    color: white;   
     border-radius: 5%;
     text-decoration: none;  
 }
@@ -305,8 +303,18 @@ footer img {
         display: block;
     }
 
+    footer {
+        height: 100px;        
+    }
+
     .social {
-        display: block;
+        display: flex;
+        justify-content: center;        
+    }
+
+    .siteplan a, .contactus a {                    
+        padding: 5px 4px;    
+        border: 1px solid black;
     }
 }
 
