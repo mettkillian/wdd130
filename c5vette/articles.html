@@ -5,8 +5,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>c5vettes | Articles</title>
-    <link rel="stylesheet" href="styles/style.css">
+    <title>c5vettes | C5 Corvette Articles</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="scripts" href="scripts.js">
 </head>
 
 <body>
@@ -15,19 +17,22 @@
             <a id="logo_link" href="index.html">
                 <img class="logo" src="images/logo.jpg" alt="C5 vettes logo">
             </a>
-            <nav>
+            <div class="topnav" id="myTopnav">
                 <a href="index.html">Home</a>
                 <a href="articles.html">Articles</a>
                 <a href="galleries.html">Galleries</a>
                 <a href="contactus.html">Contact Us</a>
-            </nav>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                  </a>
+            </div>
         </header>
         <div id="hero">
             <div id="hero-box">
-                <img id="hero-img" src="images/1.jpg" alt="C5 Convertible in driveway">
+                <img id="hero-img" src="images/3.jpg" alt="C5 Convertible parked">
             </div>
             <section class="weathersummary">
-                <h2>Central Utah Current Conditions</h2>
+                <h2>Current Utah Conditions</h2>
                 <p>Temperature: <span id="Temperature">82</span>&deg;F</p>
                 <p>Skies: Clear</p>
                 <p>Windspeed: <span id="Wind">10</span>MPH</p>
@@ -36,17 +41,15 @@
             </section>
             <section id="hero-msg">
                 <h1 class="home-title">C5 Corvette Articles</h1>
-                <h4>News and care tips</h4>
+                <h4>The most widely recognized Corvette of all time</h4>
                 <div class="button-box">
                     <a class="join" href="#">Join Now</a>
                 </div>
             </section>
         </div>
         <main class="article-grid">
-            <section class="article-img">
-                <img class="articleone-img" src="images/meguires.JPG" alt="Car care products">               
-            </section> 
-            <section class="article-one">                
+            <div class="article1">            
+                <img src="images/meguires.JPG" alt="Car care products">                     
                 <h2>Care Tips</h2>
                 <p>There are many do’s and don’ts in caring for your multi-layer 
                     clear-coat painted sheet molded compound (SMC) body panels. Paint 
@@ -66,12 +69,10 @@
                     and wheel cleaner! To help keep your car dust and lint-free between washings, 
                     the Original California car duster will pull wax-dulling fine-particle dust 
                     off your prized finish with just one sweeping motion. 
-                </p>
-            </section>
-            <section class="article-img">
-                <img class="articletwo-img" src="images/2.jpg" alt="C5 posed for photo">               
-            </section>  
-            <section class="article-two">                
+                </p>            
+            </div>
+            <div class="article2">            
+                <img src="images/2.jpg" alt="C5 posed for photo">                                       
                 <h2>Photos and Shows</h2>
                 <p>Have you ever wondered how to get that picture perfect photo of your C5? Shown 
                     above is an example taken with a 4K camera in the lazy afternoon sun during 
@@ -89,12 +90,10 @@
                     shows and featuring your car in restoration magazines is just the beginning! Building 
                     your investment and frame-over restoration is a rewarding process, and 
                     what better car than the Corvette?
-                </p>
-            </section>
-            <section class="article-img">
-                <img class="articlethree-img" src="images/ls1.JPG" alt="C5 LS1 Engine">               
-            </section>  
-            <section class="article-three">                
+                </p>            
+            </div>
+            <div class="article3">            
+                <img src="images/ls1.JPG" alt="C5 LS1 Engine">                  
                 <h2>The LS1 Engine</h2>
                 <p>In 1997, the LS1 engine was the brainchild of Chevrolet engineers. It
                     replaced the powerful but inefficent LT4 engine that failed to meet
@@ -107,27 +106,41 @@
                     while still meeting California and Federal Emission standards. It was
                     the beginning of the LS era, the most widely swapped and beloved
                     small-block engine of all time.
-                </p>
-            </section>
+                </p>            
+            </div>
                      
         </main>
         <footer>
-            <h3>c5vettes &copy; 2022 - Dainon Snow</h3>
-            <h3><a href="site-plan.html">Site Plan</a></h3>
-            <h3><a href="contactus.html">Contact Us</a></h3>
+            
             <div class="social">
+                <div class="siteplan">
+                <h3><a href="site-plan.html">Site Plan</a></h3>
+                </div>
+                <div class="contactus">
+                <h3><a href="contactus.html">Contact Us</a></h3>
+                </div>
+                <div class="signature">
+                    <h3>c5vettes &copy; 2022 - Dainon Snow</h3>
+                </div>
+                <div class="facebook">            
                 <a href="https://facebook.com" target="_blank">
                     <img src="images/facebook.png" alt="fb icon">
                 </a>
+                </div>
+                <div class="twitter">
                 <a href="https://twitter.com" target="_blank">
                     <img src="images/twitter.png" alt="twitter icon">
                 </a>
+                </div>
+                <div class="instagram">
                 <a href="https://instagram.com" target="_blank">
                     <img src="images/instagram.png" alt="instagram icon">
                 </a>
+                </div>
             </div>
         </footer>
     </div>
+    <script src="scripts/scripts.js"></script>
 </body>
 
 </html>

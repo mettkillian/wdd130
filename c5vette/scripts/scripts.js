@@ -1,3 +1,4 @@
+/* Code from W3 Schools */
 function myFunction() {
     var x = document.getElementById("myTopnav");
     if (x.className === "topnav") {
