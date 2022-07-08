@@ -309,7 +309,7 @@ footer img {
 
     .social {
         display: flex;
-        justify-content: center;        
+        justify-content: space-around;        
     }
 
     .siteplan a, .contactus a {                    
