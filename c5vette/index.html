@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>c5vettes | C5 Corvette Forum</title>
     <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="scripts" href="scripts.js">
 </head>
 
 <body>
@@ -15,12 +17,15 @@
             <a id="logo_link" href="index.html">
                 <img class="logo" src="images/logo.jpg" alt="C5 vettes logo">
             </a>
-            <nav>
+            <div class="topnav" id="myTopnav">
                 <a href="index.html">Home</a>
                 <a href="articles.html">Articles</a>
                 <a href="galleries.html">Galleries</a>
                 <a href="contactus.html">Contact Us</a>
-            </nav>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                  </a>
+            </div>
         </header>
         <div id="hero">
             <div id="hero-box">
@@ -95,6 +100,8 @@
             </div>
         </footer>
     </div>
+
+    <script src="scripts/scripts.js"></script>
 </body>
 
 </html>
