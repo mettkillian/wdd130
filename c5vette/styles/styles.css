@@ -150,7 +150,8 @@ h2 {
 
 footer {
     margin-top: 5px;    
-    background-color: black;     
+    background-color: black;
+    height: 100px;     
     font-family: "PT Sans";
     border: 1px solid black; 
 }
@@ -158,23 +159,21 @@ footer {
 .social {
     display: grid;
     grid-template-columns: repeat(20, 1fr);
-    place-items: center;
-    font-size: .8em;
-    padding-top: 20px;
-    padding-bottom: 20px;    
+    align-items: center;
+    font-size: .5em;
+    padding-top: 30px;    
 }
 
 .signature {
-    grid-column: 8/15;
+    grid-column: 7/15;
     text-align: center;
     font-family: "PT Sans";
-    font-size: 1em;
+    font-size: 1.5em;
     color:#EF233C
 }
 
 .siteplan {
-    grid-column: 1/4;
-             
+    grid-column: 2/4;                 
 }
 
 .contactus {
@@ -183,9 +182,8 @@ footer {
 }
 
 .siteplan a, .contactus a {
-    background-color: #EF233C;           
-    padding: 10px 20px;
-     width: 85px;
+    background-color: #EF233C;            
+    padding: 10px 20px;    
     text-decoration: none;
     color: white;
     border: 1px solid black;
@@ -304,6 +302,10 @@ footer img {
     }
 
     .article-grid {
+        display: block;
+    }
+
+    .social {
         display: block;
     }
 }
