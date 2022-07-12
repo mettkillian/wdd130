@@ -5,8 +5,24 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>c5vettes | Galleries</title>
+    <title>c5vettes | Photo Galleries</title>
     <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="scripts" href="scripts.js">
+</head>
+
+<body>
+    <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>c5vettes | C5 Corvette Forum</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="scripts" href="scripts.js">
 </head>
 
 <body>
@@ -15,28 +31,32 @@
             <a id="logo_link" href="index.html">
                 <img class="logo" src="images/logo.jpg" alt="C5 vettes logo">
             </a>
-            <nav>
+            <div class="topnav" id="myTopnav">
                 <a href="index.html">Home</a>
                 <a href="articles.html">Articles</a>
                 <a href="galleries.html">Galleries</a>
                 <a href="contactus.html">Contact Us</a>
-            </nav>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                  </a>
+            </div>
         </header>
         <div id="hero">
             <div id="hero-box">
-                <img id="hero-img" src="images/6.jpg" alt="C5 Convertible in driveway">
+                <img id="hero-img" src="images/3.jpg" alt="C5 Convertible parked">
             </div>
             <section class="weathersummary">
-                <h2>Central Utah Current Conditions</h2>
-                <p>Temperature: <span id="Temperature">82</span>&deg;F</p>
-                <p>Skies: Clear</p>
-                <p>Windspeed: <span id="Wind">10</span>MPH</p>
-                <p>Humidity: 26%</p>
-                <p>Wind Chill: <span id="windChill">78F</span>&deg;</p>
+                <h2>Current Conditions</h2>
+                <p>Temperature: <span id="current-temp"></span>&deg; F</p>
+                <p>Humidity: <span id="current-humidity"></span>%</p>
+                <p>Skies: <span id="current-skies"></span></p>
+                <p>Windspeed: <span id="current-speed"></span> MPH</p>            
+                <p>Wind Chill: <span id="current-chill"></span>&deg; F</p>
+                <p>Wind Direction: <span id="direction"></span></p>
             </section>
             <section id="hero-msg">
-                <h1 class="home-title">C5 Corvette Galleries</h1>
-                <h4>Submit your C5 pics!</h4>
+                <h1 class="home-title">C5 Corvettes Forum</h1>
+                <h4>The most widely recognized Corvette of all time</h4>
                 <div class="button-box">
                     <a class="join" href="#">Join Now</a>
                 </div>
@@ -50,23 +70,36 @@
             <img class="gallery-img" src="images/g5.JPG" alt="C5 Corvette">
             <img class="gallery-img" src="images/g6.JPG" alt="C5 Corvette">                     
         </main>
-        <footer>
-            <h3>c5vettes &copy; 2022 - Dainon Snow</h3>
-            <h3><a href="site-plan.html">Site Plan</a></h3>
-            <h3><a href="contactus.html">Contact Us</a></h3>
+        <footer>            
             <div class="social">
+                <div class="siteplan">
+                <h3><a href="site-plan.html">Site Plan</a></h3>
+                </div>
+                <div class="contactus">
+                <h3><a href="contactus.html">Contact</a></h3>
+                </div>
+                <div class="signature">
+                    <h3>c5vettes &copy; 2022 - Dainon Snow</h3>
+                </div>
+                <div class="facebook">            
                 <a href="https://facebook.com" target="_blank">
                     <img src="images/facebook.png" alt="fb icon">
                 </a>
+                </div>
+                <div class="twitter">
                 <a href="https://twitter.com" target="_blank">
                     <img src="images/twitter.png" alt="twitter icon">
                 </a>
+                </div>
+                <div class="instagram">
                 <a href="https://instagram.com" target="_blank">
                     <img src="images/instagram.png" alt="instagram icon">
                 </a>
+                </div>
             </div>
         </footer>
     </div>
+    <script src="scripts/scripts.js"></script>
 </body>
 
 </html>
