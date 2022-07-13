@@ -270,7 +270,7 @@ footer img {
 
 .article1 img:hover, .article2 img:hover, .article3 img:hover {
     opacity: .6;
-    transform: scale(1.1);
+    transform: scale(1.05);
    
 }
 
@@ -297,7 +297,7 @@ footer img {
 
 .gallery-img:hover {
     opacity: .6;
-    transform: scale(1.1);
+    transform: scale(1.05);
 }
 
 form {      
