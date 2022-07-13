@@ -8,15 +8,6 @@ function myFunction() {
     }
   }
 
-const feedbackElement = document.getElementById('feedback');        
-        const formElement = document.forms[0];        
-        formElement.addEventListener('submit', function(e) {           
-            e.preventDefault();            
-            feedbackElement.innerHTML = 'Hello '+ formElement.user_name.value +'! Thank you for your message. We will get back with you as soon as possible!';
-            feedbackElement.style.display = "block";            
-            document.body.classList.toggle('moveDown');
-});
-
 let weatherRequest = new XMLHttpRequest();
 weatherRequest.open('GET', "https://api.openweathermap.org/data/2.5/weather?id=5604473&units=imperial&APPID=86ba4d2c72ca8e279c8006007e3ef735", true);
 weatherRequest.send();
