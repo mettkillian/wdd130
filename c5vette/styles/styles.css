@@ -424,6 +424,10 @@ form {
     .signature {
         font-size: .95em;
     }
+
+    #hero-msg h4 {
+        font-size: .75em;
+    }
 }
 
 /* Code from W3 Schools */
